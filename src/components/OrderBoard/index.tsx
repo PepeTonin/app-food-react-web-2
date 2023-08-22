@@ -2,7 +2,6 @@ import { Board, OrdersContainer } from "./styles";
 import { Table } from "../Table";
 
 export function OrderBoard(props: any) {
-
     return (
         <Board>
             <header>
