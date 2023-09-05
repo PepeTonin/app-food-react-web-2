@@ -4,7 +4,7 @@ export const Container = styled.header`
     background: "white";
     display: flex;
     justify-content: center;
-    height: 198px;
+    height: 100px;
     align-items: center;
 `;
 
@@ -13,12 +13,15 @@ export const Content = styled.div`
     max-width: 1216px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
+
+    .icons-container {
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+    }
 
     img {
-        width: 500px;
-    }
-    p {
-        font-size: 50px;
+        width: 50px;
     }
 `;

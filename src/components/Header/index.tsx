@@ -1,5 +1,4 @@
-
-import logo from "../../assets/images/logo.svg"
+import logo from "../../assets/images/logo_ifpr.png"
 
 import { Container, Content } from "./styles";
 
@@ -7,12 +6,8 @@ export function Header() {
     return (
         <Container>
             <Content>
-                <div className="page-details">
-                    <h1>Pedidos</h1>
-                    <h2>Acompanhamento de Pedidos</h2>
-                </div>
-
-                <img src={logo} alt="AppFood" />
+                <img src={logo} />
+                <p>Campus Cascavel</p>
             </Content>
         </Container>
     );

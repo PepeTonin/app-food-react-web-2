@@ -52,10 +52,4 @@ export const GlobalStyles = createGlobalStyle`
     background: #fafafa;
     color: #333;
   }
-
-  button {
-    cursor: pointer;
-    font-size: 1rem;
-    color: #333;
-  }
 `;
